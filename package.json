@@ -1,0 +1,34 @@
+{
+  "name": "sass-bootstrap-boilerplate",
+  "version": "1.0.0",
+  "description": "simple starting point for designing web pages",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run watch-css & nodemon index.js",
+    "start": "NODE_ENV=production node index.js",
+    "watch-css": "node-sass -w sass -o public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joedeluca/sass-bootstrap-boilerplate.git"
+  },
+  "keywords": [
+    "sass",
+    "boilerplate",
+    "bootstrap"
+  ],
+  "author": "Joe DeLuca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joedeluca/sass-bootstrap-boilerplate/issues"
+  },
+  "homepage": "https://github.com/joedeluca/sass-bootstrap-boilerplate#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "livereload": "^0.9.3",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
+  }
+}
