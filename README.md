@@ -14,3 +14,11 @@ From the command line (I recommend VSCode's built in terminal: https://code.visu
 
 Fire up localhost:8080 and start building.
 
+## Resources
+https://code.visualstudio.com/
+https://sass-lang.com/guide
+https://getbootstrap.com/
+https://nodejs.org/en/
+https://www.npmjs.com/
+https://expressjs.com/
+https://ejs.co/
