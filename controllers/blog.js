@@ -1,8 +1,7 @@
 exports.getHome = async (req, res) => {
-    console.log("hi")
     res.render("index", {
         path: "/",
-        pageTitle: "Blah",
+        pageTitle: "Home",
     });
 };
 exports.getPage = (req, res) => {
