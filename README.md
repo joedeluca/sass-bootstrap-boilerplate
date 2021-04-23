@@ -1,7 +1,7 @@
 # sass-bootstrap-boilerplate
-A very simple framework to work through css/html design that allows one to write SASS. It also illustrates a basic nodejs / express MVC project, though no models are implemented.
+A very simple Node.js/Express MVC framework to work through css/html design that allows one to write SASS. Bootstrap 5.0 source has been added, but can by deleting the include in blog.scss.
 
-Any page you put in the views directory root automatically becomes a route. 
+Note that any .ejs file you put in the views directory root automatically becomes a route, so there isn't any necessarily any need to edit the routes or controller.
 
 ## Use this how?
 From the command line (I recommend VSCode's built in terminal: https://code.visualstudio.com/):
